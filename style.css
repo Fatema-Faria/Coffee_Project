@@ -1,0 +1,690 @@
+/* .header{  
+
+    background-image: url("./img/overlay-top.png")!important;
+position: relative;
+top: 100%;
+} */
+.koppee{
+    color: white!important;
+    font-size: 60px!important;
+}
+.home{
+    color: #DA9F5B!important;
+}
+.nav-li{
+    color: white!important;
+}
+.nav-li:hover{
+    color: #DA9F5B!important;
+}
+
+.dropdown-item:focus{
+background-color: #DA9F5B!important;
+}
+
+
+.header_2{
+
+    background-image: url("./img/bg2.jpg");
+    
+position: relative;
+    width: 100%;
+    height: 60vh;
+  margin-bottom: 10%;
+    
+}
+.navbar_2{
+    background-color: #2a1916c5;
+    width: 100%;
+    height: 60vh;
+    /*  */
+  
+}
+.header_2>h1{
+color:white ;
+position: absolute;
+font-size: 45px;
+font-weight: bolder;
+top: 45%;
+left: 40%;
+}
+.header_2 h2{
+    color:white ;
+position: absolute;
+font-size: 20px;
+top: 65%;
+left: 42%;
+}
+.header_2 h2 a{
+text-decoration: none;
+color: white;
+}
+.header_2 h2 a:hover{
+    text-decoration: underline;
+}
+
+
+/* ................................carousel.................................... */
+
+
+.carousel-indicators button{
+    height: 10px!important;
+    width:10px!important;
+    border-radius: 50%;
+}
+
+.carousel-item{
+width: 100%;
+/* height: 100vh; */
+background-color: #2a1916b9;
+
+
+}
+
+
+.carousel-caption h2{
+  font-size:150px ;
+}
+.carousel-caption h1{
+    color: #DA9F5B;
+  
+}
+
+/* ................................second page ..................*/
+
+.target_up{
+position: absolute;
+padding: 10px 1px;
+
+
+bottom: 0;
+right: 0;
+background-color: #DA9F5B;
+
+
+}
+.target_up i{
+font-size: 25px!important;
+}
+.secondPage{
+   position: relative;
+}
+
+@keyframes icon_move{
+
+    
+}
+
+.secondPage>h1{
+color: #DA9F5B;
+font-size:30px ;
+letter-spacing: 3px;
+margin: 10px;
+}
+.secondPage>h2{
+    font-size: 50px;
+    color: #33211D;
+}
+.stick{
+    height: 130px;
+    width: 2px;
+    background-color: #DA9F5B;
+   margin: auto;
+   margin-top: 100px;
+}
+.about{
+    width: 80%;
+ 
+}
+.about h1{
+    color: #33211D;
+    
+}
+.about h2{
+    font-size: 20px;
+    color:rgb(58, 54, 54);
+}
+.about p{
+    color: rgb(97, 89, 89);
+}
+
+.image img{
+width: 400px!important;
+height: 70vh!important;
+text-align: center;
+}
+.button{
+  background-color: #33211D!important;
+  color: white!important;
+}
+.button:hover{
+    background-color: #2a1916!important;
+}
+.about h3{
+    font-size: 20px;
+   margin-bottom: 20px;
+   color: black!important;
+}
+.about i{
+color: #DA9F5B;
+margin-right: 10px!important;
+}
+.button2{
+    background-color:#DA9F5B!important;
+  
+    margin-top: 10px;
+}
+.button2:hover{
+    background-color: #e49b48!important;
+    
+}
+
+/* ................................third page............................. */
+.third_page>h1{
+    color: #DA9F5B;
+    font-size:30px ;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.third_page>h2{
+    font-size: 50px;
+    color: #33211D;
+    margin-bottom: 50px;
+}
+.column{
+    /* margin: 30px; */
+}
+.column img{
+margin-right: 30px;
+margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
+}
+.column i{
+    background-color: #DA9F5B;
+    color: #33211D;
+    font-size: 20px;
+  padding: 13px ;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.column h1{
+    font-size: 20px;
+    color: #33211D;
+}
+.column p{
+    color: rgb(76, 74, 74);
+}
+
+
+/* .............................forth page....................... */
+
+
+.fourth_page{
+ 
+
+    background-image: url('./img/bg2.jpg');
+    /* background-size:80% 100% ; */
+    /* background-repeat: no-repeat; */
+background-color: #2a1916e4;
+width: 100%;
+height: 70vh;
+text-align: center;
+
+}
+.fourth{
+    background-color: #2a1916e4;
+    width: 100%;
+    height: 70vh;
+}
+.fourth_page h1{
+    font-size: 90px;
+    color: #DA9F5B;
+ padding-top: 10%;
+}
+.fourth_page h2,h3{
+    font-size: 30px;
+   
+  font-weight: bolder;
+    color: white!important;
+}
+.fourth_page input{
+padding: 14px 20px;
+margin-right: 0;
+border: 0;
+}
+.fourth_page input:focus{
+    border: 4px solid #4c3214;
+}
+.fourth_page button{
+    padding: 14px 22px;
+ background-color: #DA9F5B;
+ border: 0;
+ margin-left: 0!important;
+}
+
+/* ...........................fifth page................................ */
+
+.fifth_page{
+width: 90%;
+
+
+}
+.fifth_page>h1{
+    color: #DA9F5B!important;
+    font-size:30px ;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.fifth_page>h2{
+    font-size: 50px;
+    color: #33211D;
+    margin-bottom: 50px;
+}
+.heading_2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    /* margin-left: 10px; */
+}
+.fifth_page h1{
+    color: #2a1916;
+}
+.fifth_page p{
+    color: gray;
+}
+.column_2{
+    width: 100%;
+    justify-content: center;
+}
+.column_2 img{
+    height: 150px!important;
+    width: 150px!important;
+    margin-bottom: 30px;
+    margin-right: 20PX;
+   
+}
+.image{
+ position: relative;
+
+}
+.column_2 span{
+    padding: 12px 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 18%;
+    background-color: #DA9F5B;
+    color: #33211D;
+   
+}
+
+
+/* .............................sixth_page............................ */
+
+.sixth_page{
+width: 80%!important;
+height: 90%!important;
+margin: auto;
+/* margin-left: 20%!important; */
+background-image: url("./img/bg2.jpg");
+justify-content: center!important;
+margin: auto!important;
+}
+
+.column_3{
+background-color: #2a1916a9;
+height: 90vh;
+width: 50%;
+
+
+}
+.column_4{
+    background-color: #2a1916ee;
+    height: 90vh;
+    width: 50%;
+}
+.column_3 h1{
+    color: #DA9F5B;
+    padding-top: 20%;
+    padding-left: 10%;
+    font-size: 80px;
+}
+.column_3 h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 10%;
+
+}
+.column_3 p{
+    color: rgb(188, 175, 175);
+    padding-left: 10%;
+
+}
+.column_3 h3{
+    font-size: 20px;
+    padding-left: 10%;
+
+}
+.column_3 h3 i{
+    color: #DA9F5B;
+    margin-right: 10px;
+}
+.column_4 h1{
+    padding-top: 15%;
+    color: white;
+}
+.column_4 input{
+
+background-color: transparent;
+border: 3px solid #DA9F5B!important;
+
+}
+
+.form-select{
+    background-color: transparent!important;
+border: 3px solid #DA9F5B!important;
+
+}
+.column_4 form button{
+    padding: 3% 30%!important;
+   margin-left: 15%;
+    background-color: #DA9F5B;
+}
+
+/* ........................sixth page................................ */
+
+.seventh_page>h1{
+    color: #DA9F5B!important;
+    font-size:30px ;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.seventh_page>h2{
+    font-size: 50px;
+    color: #33211D;
+    margin-bottom: 50px;
+}
+
+/* ..............................footer........................... */
+
+.footer{
+    height: 80vh;
+    width: 100%; 
+   margin-top: 30px;
+    background-image: url("./img/bg2.jpg");
+    color: white;
+}
+.footer_section{
+    height: 80vh;
+    width: 100%; background-color: #3b2522c2;
+}
+.footer .row{
+width: 80%;
+width: 90%;
+margin: auto;
+}
+
+.footer .col{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.footer .col h1{
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+.footer .col h2{
+    font-size: 18px;
+}
+.col h2 i{
+    margin-right: 5px;
+}
+.icon i{
+    font-size: 20px;
+    padding: 14px;
+    margin-right:2px ;
+    border: 2px solid white;
+}
+.icon i:hover{
+    background-color: white;
+    color: #2a1916;
+}
+.footer input{
+    padding: 8px;
+}
+.footer button{
+    padding: 8px 5px;
+    background-color: #DA9F5B;
+    border: 0;
+}
+.footer_section>h1{
+    font-size: 20px!important;
+    margin-top: 2%;
+}
+.footer_section>h2{
+    font-size: 15px;
+}
+
+@media screen and (max-width:992px)  {
+    .navbar{
+        background-color:#33211D;
+    }  
+    .koppee{
+        color: white!important;
+        font-size: 40px!important;
+    }
+    .navbar-nav a{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .navbar-toggler{
+border: 3px solid white!important;
+border-radius: 0;
+    }
+    .carousel-caption{
+        top: 80px;
+       
+    }
+    .carousel-caption h2{
+        margin-top: 0!important;
+    }
+    .carousel-caption h2{
+        font-size:80px ;
+      }
+
+/* ..........................second page....................... */
+.secondPage>h2{
+    font-size: 40px;
+margin-bottom: 30px;
+}
+.about{
+    width: 90%;
+ 
+}
+.about h1{
+margin-bottom: 20px;
+    
+    
+}
+.about h2{
+    margin-bottom: 10px;
+}
+
+/* ............................third page */
+
+.col img{ 
+width: 300px;
+height: 250px;
+
+}
+.heading{
+  margin-top: 10%;
+}
+/* ...................................fourth page............. */
+.fourth_page h1{
+    font-size: 60px;
+     padding-top: 15%;
+}
+.fourth_page h2,h3{
+    font-size: 28px;
+ 
+}
+.fourth_page input{
+padding: 12px 20px;
+
+}
+
+.fourth_page button{
+    padding: 12px 22px;
+
+}
+
+/* .......................................fifth page.................... */
+
+.fifth_page{
+    width: 90%;
+    
+    
+    }
+ 
+    .fifth_page>h2{
+        font-size: 45px;
+           }
+    .heading_2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .column_2{
+         width: 100%;
+        
+    }
+    .column_2 img{
+        height: 120px!important;
+        width: 120px!important;
+        margin-bottom: 30px;
+        margin-right: 20PX;
+        
+    } 
+
+    .column_2 span{
+        
+        right: 10%;}
+
+
+        /* ...................................footer........................................ */
+        .footer{
+            height: 140vh;
+        }
+        .footer_section{
+            height: 140vh;
+          
+        }
+        .footer .footer_section .row{
+            flex-direction: column;
+        }
+        .footer .col{
+            margin-top: 0%;
+            margin-bottom: 3%;
+        }
+        .col_1{
+            padding-top: 10%;
+        }
+}
+@media screen and (max-width:576px){
+
+
+
+    /* ............................third page............................ */
+  
+    .third_page>h2{
+        font-size: 35px;
+           }
+.col img{
+width: 420px!important;
+margin-bottom: 10px;
+}
+.heading{
+    margin-top: 0!important;
+}
+
+
+/* ............................fourth page.................... */
+/* .fourth_page h1{
+    font-size: 60px;
+     padding-top: 15%;
+}
+.fourth_page h2,h3{
+    font-size: 28px;
+ 
+}
+.fourth_page input{
+padding: 12px 20px;
+
+}
+
+.fourth_page button{
+    padding: 12px 22px;
+
+} */
+
+
+/* ...................fifth page */
+.fifth_page{
+    width: 90%;
+      }
+ 
+    .fifth_page>h2{
+        font-size: 45px;
+           }
+    .heading_2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .column_2{
+        width: 100%;
+        
+    }
+    .column_2 img{
+        height: 120px!important;
+        width: 120px!important;
+        margin-bottom: 30px;
+        margin-right: 20PX;
+    }
+    .column_2 span{
+        
+        right: 10%;}
+
+        
+        /*.............................sixth page..........................  */
+        .sixth_page{
+     margin: 0!important;
+        width: 100%!important; 
+        height: 200vh;   
+            }
+
+
+/* ..........................................footer......................... */
+.footer{
+    height: 140vh;
+}
+.footer_section{
+    height: 140vh;
+  
+}
+.footer .footer_section .row{
+    flex-direction: column;
+}
+.footer .col{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.col_1{
+    padding-top: 10%;
+}
+ 
+
+
+
+
+}
