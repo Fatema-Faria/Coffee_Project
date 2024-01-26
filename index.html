@@ -10,50 +10,66 @@
     <script src="https://kit.fontawesome.com/4c3a6b0f2e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- ............................navbar start............................... -->
-<header class="header">
+<!-- ............................navbar start...............................-->
+<header class="header"> 
 <nav class="navbar navbar-expand-lg fixed-top ">
    <div class="container-fluid   ">
 
-       <a href=""class="nav-link koppee mt-2">KOPPEE</a> 
+       <a href=""class="nav-link koppee mt-2">COFFEE</a> 
 
-      
-
-     <button class="navbar-toggler" data-bs-toggle="collapse"data-bs-target="#navid">
+        
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navid" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    
+    <!-- <ul class="navbar-nav">
+        <li class="nav-item me-2 p-3"><a href="./home.php"
+                class="nav-link active text-warning">Home</a></li>
+       <li class="nav-item me-2 p-3"><a href="./about.php" class="nav-link ">About</a></li>
+        <li class="nav-item me-2 p-3"><a href="./service.php" class="nav-link ">Service</a></li>
+        <li class="nav-item me-2 p-3"><a href="./menu.php" class="nav-link ">Menu</a></li>
+        <li class="nav-item me-2 p-3 dropdown"><a href="" class="nav-link dropdown-toggle "
+                data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+                <li><a href="./reservation.php" class="dropdown-item">Reservation</a></li>
+                <li><a href="./testimonial.php" class="dropdown-item">Testimonial</a></li>
+        </li>
+    </ul>
+    <li class="nav-item me-2 p-3"><a href="./contact.php" class="nav-link ">Contact</a></li>
+    </ul> -->
 
     <div class="collapse navbar-collapse  justify-content-end"id="navid">
 
-       <ul class="navbar-nav ">
+     <ul class="navbar-nav ">
     
     <li class="nav-item"><a href="./index.html"class="nav-link home">Home</a> </li>
     <li class="nav-item"><a href="./about.html"class="nav-link nav-li About">About</a> </li>
     <li class="nav-item"><a href="./service.html"class="nav-link nav-li Service">Service</a> </li>
+    
+    
     <li class="nav-item"><a href="./menu.html"class="nav-link nav-li Menu">Menu</a> </li>
-    <li class="nav-item "><a href=""class="nav-link nav-li dropdown-toggle dropdown Page"data-bs-toggle="dropdown" >Pages</a> 
     
+    <li class="nav-item  dropdown"><a href="" class="nav-link nav-li dropdown-toggle "
+        data-bs-toggle="dropdown">Pages</a>
     <ul class="dropdown-menu">
-        <li class="nav-item"><a href="./reservartion.html"class="dropdown-item Reservation">Reservation</a> </li>
-        <li class="nav-item"><a href="./testimonial.html"class="dropdown-item Testimonial">Testimonial</a> </li>
-    </ul>
-    
-    
-    </li>
+        <li ><a href="./reservartion.html" class="dropdown-item"onclick="liClick1()"id="li1">Reservation</a></li>
+        <li ><a href="./testimonial.html" class="dropdown-item"onclick="liClick2()"id="li2">Testimonial</a></li>
+</ul>  </li>
+   
+   
     <li class="nav-item Contact"><a href="./contact.html"class="nav-link nav-li">Contact</a> </li>
     
     
-    </ul>   
-    </div>
+    </ul>
+
+    </div> 
    </div> 
-    
   
-     </nav>
+  
+     </nav> 
     <!--.......................navbar end...........................  -->
     
 
-
+  
 
 <!-- ...........................carousel start................................ -->
        
@@ -64,7 +80,7 @@
         <button data-bs-target="#mycarousel"data-bs-slide-to="1"></button>
     </div>
 <div class="carousel-inner">
-<div class="carousel-item "data-bs-interval="100"><img src="./img/carousel-1.jpg" alt=""class="d-block w-100">
+<div class="carousel-item w-100 "data-bs-interval="100"><img src="./img/carousel-1.jpg" alt=""class="d-block w-100">
     <div class="carousel-caption bottom-0 mb-5">
         <h1 >We Have Been Serving</h1>
         <h2>COFFEE</h2>
@@ -73,7 +89,7 @@
 
 
 </div>
-<div class="carousel-item active"data-bs-interval="100"><img src="./img/carousel-2.jpg" alt=""class="d-block w-100">
+<div class="carousel-item active w-100"data-bs-interval="100"><img src="./img/carousel-2.jpg" alt=""class="d-block w-100">
     <div class="carousel-caption">
         <h1>We Have Been Serving</h1>
         <h2>COFFEE</h2>
@@ -94,22 +110,21 @@
 </button>
 
 </div>
-</header>
+</header>  
 
 
 
 <!-- ...............................second page.............................. -->
     
-<section class="secondPage"id="up">
+ <section class="secondPage"id="up">
 <div class="stick "></div>
 <h1 class="text-center">ABOUT US</h1>
 <h2 class="text-center">Serving Since 1950</h2>
 
 
-<a href="#"target="#up"class="target_up"><i class="fa-sharp fa-solid fa-angle-up"></i><i class="fa-sharp fa-solid fa-angle-up"></i></a>
 
 <section class="d-lg-flex  about m-auto">
-    <div >
+    <div class="about-div">
 <h1>Our Story</h1>
 <h2>Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h2>
 <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
@@ -118,7 +133,7 @@
     <div class="image">
         <img src="./img/about.png" alt="">
     </div>
-    <div>
+    <div class="about-div">
         <h1>Our Vision</h1>
         <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
         <h3><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet</h3>
@@ -128,7 +143,7 @@
     </div>
 
 </section>
-</section>
+</section> 
 <!-- ........................third page............................... -->
 
  <section class="third_page">
@@ -192,11 +207,10 @@
     <h1>50% OFF</h1>
     <h2>Sunday Special Offer</h2>
     <h3>Only for Sunday from 1st Jan to 30th Jan 2045</h3>
-    <div class="input">
-        <input type="email" placeholder="Your Email"required>
-    <button>Sign up</button>
-    
-    </div>
+    <div class="input-group input  mb-3">
+        <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+        <button class="btn " type="button" id="button-addon2">Sign Up</button>
+      </div>
 
 </section>
 
@@ -339,7 +353,7 @@
 
 </select><br>
 
-<button>Book Now</button>
+<button class="fw-bold">Book Now</button>
 
 </form>
 
@@ -352,144 +366,53 @@
 
  <!--............................................seventh page....................  -->
 
-<!-- <section class="seventh_page">
-<div class="stick"></div>
-<h1 class="text-center">TESTIMONIAL</h1>
-<h2 class="text-center"> Our Clients Say</h2>
-<div class="">
+ <section class="Testimonial-Part">
 
-<div class="carousel-item ">
-<div class="d-flex">
-<div  >
-    <img src="./img/testimonial-1.jpg" alt="">
-
-</div>
-<div>
-  <h1>Client Name</h1>
-<h2>Profession</h2>
-</div>
-
-</div>
-
-<div>
-    <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-
-</div>
-
-</div>
-
-
-
-<div class="carousel-item ">
-    <div class="d-flex">
-    <div  >
-        <img src="./img/testimonial-2.jpg" alt="">
-    
-    </div>
-    <div>
-      <h1>Client Name</h1>
-    <h2>Profession</h2>
-    </div>
-    
-    </div>
-    
-    <div>
-        <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-    
-    </div>
-    
+    <div class="stick"> </div>
+    <div class="about-serving">
+        <h2 class="text-center">
+            TESTIMONIAL
+        </h2>
+        <h1 class="text-center"> Our Clients Says</h1>
     </div>
 
-    <div class="carousel-item">
-        <div class="d-flex">
-        <div  >
-            <img src="./img/testimonial-3.jpg" alt="">
-        
-        </div>
-        <div>
-          <h1>Client Name</h1>
-        <h2>Profession</h2>
-        </div>
-        
-        </div>
-        
-        <div>
-            <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-        
-        </div>
-        
-        </div>
-
-        <div class="carousel-item">
+    <div class="row row-cols-1 row-cols-lg-3 about-servingDiv">
+        <div class="col mt-4">
             <div class="d-flex">
-            <div  >
-                <img src="./img/testimonial-4.jpg" alt="">
-            
-            </div>
-            <div>
-              <h1>Client Name</h1>
-            <h2>Profession</h2>
-            </div>
-            
-            </div>
-            
-            <div>
-                <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-            
-            </div>
-            
-            </div>
-
-            <div class="carousel-item">
-                <div class="d-flex">
-                <div  >
-                    <img src="./img/testimonial-1.jpg" alt="">
-                
+                <img src="./img/testimonial-1.jpg" alt="">
+                <div class="ps-2">
+                    <h4>Client Name</h4>
+                    <p class="fst-italic">Profession</p>
                 </div>
-                <div>
-                  <h1>Client Name</h1>
-                <h2>Profession</h2>
+            </div>
+            <p class="pt-2 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui nostrum, labore
+                accusantium sapiente animi.</p>
+        </div>
+        <div class="col mt-4">
+            <div class="d-flex">
+                <img src="./img/testimonial-2.jpg" alt="">
+                <div class="ps-2">
+                    <h4>Client Name</h4>
+                    <p class="fst-italic">Profession</p>
                 </div>
-                
+            </div>
+            <p class="pt-2 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui nostrum, labore
+                accusantium sapiente animi.</p>
+        </div>
+        <div class="col mt-4">
+            <div class="d-flex">
+                <img src="./img/testimonial-3.jpg" alt="">
+                <div class="ps-2">
+                    <h4>Client Name</h4>
+                    <p class="fst-italic">Profession</p>
                 </div>
-                
-                <div>
-                    <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                
-                </div>
-                
-                </div>
+            </div>
+            <p class="pt-2 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui nostrum, labore
+                accusantium sapiente animi.</p>
+        </div>
+    </div>
 
-                <div class="carousel-item">
-                    <div class="d-flex">
-                    <div  >
-                        <img src="./img/testimonial-2.jpg" alt="">
-                    
-                    </div>
-                    <div>
-                      <h1>Client Name</h1>
-                    <h2>Profession</h2>
-                    </div>
-                    
-                    </div>
-                    
-                    <div>
-                        <p>Sed ea amet kasd elitr stet,stet rubum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                    
-                    </div>
-                    
-                    </div>
-</div>
-
-
-
-
-
-
-
-
-</section> -->
-
+</section>
 
 
 <!-- ....................................footer........................... -->
@@ -527,23 +450,35 @@
             <div class="col">
             <h1>NEWSLETTER</h1>
             <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-            <input type="email"placeholder="Your Email">
-            <button>Sign Up</button>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                <button class="btn " type="button" id="button-addon2">Sign Up</button>
+              </div>
             </div>
             
             
             </section>
             <hr>
-            <h1 class="text-center">Copyright ©<a href="Domain"></a>. All Rights Reserved.
+            <h1 class="text-center pb-5">Copyright Reserved By &copy;  Fatema Jannat || UTC<a href="Domain"></a>.
             
                 </h1>
-            <h2 class="text-center"> Designed by</h2>
             </footer>
     </section>
 
 
+    <h6>
+        <button class="jump-btn">
+            <a href="" class="text-dark">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </button>
+    </h6>
+    <script src="./hello.js">
 
+       
+            </script>
 
     <script src="./JS/bootstrap.bundle.min.js"></script>
+  
 </body>
 </html>

@@ -1,4 +1,4 @@
-.Contact_location>h1{
+.about-serving>h1{
     color: #DA9F5B;
     font-size:30px ;
     letter-spacing: 3px;
@@ -6,35 +6,108 @@
 
 }
 
-.Contact_location>h2{
+.about-serving>h2{
     font-size: 50px;
     color: #33211D;
     margin-bottom: 50px;
 }
-.Contact_location h2 i{
+.about-serving h2 i{
     font-size: 30px!important;
-    color: #DA9F5B;
+    color:#DA9F5B;
 }
-.Contact_location p{
+.about-serving p{
     color: gray;
     font-size: 20px;
     margin-bottom: 30px;
 }
-.inputs{
-margin-left:5%;
+.contact-info{
+    /* margin: 50px 50px; */
+}
+iframe{
+    width: 90%;
+    height: 100%;
+}
+.inputTag{
+    padding: 10px 195px 10px 15px;
+    outline: 1px solid burlywood;
+    margin: 7px;
+    border-radius: 5px;
+    
+}
+.inputTag:focus{
+    border: 2px solid #DA9F5B;
+}
+.massage{
+    padding: 100px 195px 100px 15px!important;
+    outline: 1px solid burlywood;
+    margin: 7px;
+    border-radius: 5px;
+}
+.massage:focus{
+    border: 2px solid #DA9F5B;
+}
+.locate h3{
+    color: black!important;
+}
+.locate{
+    width: 80%!important;
+    margin: auto!important;
+}
+.locate1{
+    width: 90%;
+}
+.locate1 button{
+  
+    background-color: #ac6412!important;
+    border-radius: 5px ;
+}
+@media screen and (min-width:577px) and (max-width:992px){
+  body{
+    background-color: red;
+  }
 
+
+  .contact-info{
+    margin: 70px 35px;
+}
 }
 
-.Contact_location input{
-    margin-bottom: 10px;
-    padding:15px 18px;
+
+
+@media screen and (max-width:576px){
+.Contact_locationd{
+    /* grid-template-columns: repeat(1,1fr)!important; */
+    grid-template-columns: repeat(1,1fr);
 }
-.Contact_location button{
-    background-color: #DA9F5B;
-    color: #33211D;
-    margin-top: 10px;
-    padding: 15px 20px;
-    font-size: 20px;
-    border: 0;
-    border-radius: 10px;
+
+.inputTag{
+    padding: 10px 155px 10px 15px!important;
+    outline: 1px solid burlywood;
+    /* margin-left: 0px; */
+    margin: auto;
+    margin-bottom: 15px;
+}
+.massage{
+    padding: 100px 145px 100px 15px;
+    margin-left:0 ;
+}
+.locate{
+    /* margin:auto; */
+    justify-content: start;
+}
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+}
+@media screen and (max-width:476px){
+    .inputTag{
+        padding: 10px 110px 10px 15px!important;
+    } 
+    .massage{
+        padding: 100px 110px 100px 15px!important;
+    }
+   iframe{
+        height:40vh!important;
+    }
 }

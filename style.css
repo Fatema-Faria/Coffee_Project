@@ -1,8 +1,5 @@
-/* .header{  
-
-    background-image: url("./img/overlay-top.png")!important;
-position: relative;
-top: 100%;
+/* .dropdown-item:focus{
+background-color:  #DA9F5B!important;
 } */
 .koppee{
     color: white!important;
@@ -18,10 +15,10 @@ top: 100%;
     color: #DA9F5B!important;
 }
 
-.dropdown-item:focus{
-background-color: #DA9F5B!important;
+.hedding{
+    text-align: center!important;
+    margin: auto!important;
 }
-
 
 .header_2{
 
@@ -37,8 +34,7 @@ position: relative;
     background-color: #2a1916c5;
     width: 100%;
     height: 60vh;
-    /*  */
-  
+   
 }
 .header_2>h1{
 color:white ;
@@ -53,6 +49,8 @@ left: 40%;
 position: absolute;
 font-size: 20px;
 top: 65%;
+/* display: flex; */
+
 left: 42%;
 }
 .header_2 h2 a{
@@ -75,12 +73,9 @@ color: white;
 
 .carousel-item{
 width: 100%;
-/* height: 100vh; */
 background-color: #2a1916b9;
 
-
 }
-
 
 .carousel-caption h2{
   font-size:150px ;
@@ -90,36 +85,16 @@ background-color: #2a1916b9;
   
 }
 
+
 /* ................................second page ..................*/
 
-.target_up{
-position: absolute;
-padding: 10px 1px;
 
-
-bottom: 0;
-right: 0;
-background-color: #DA9F5B;
-
-
-}
-.target_up i{
-font-size: 25px!important;
-}
-.secondPage{
-   position: relative;
-}
-
-@keyframes icon_move{
-
-    
-}
 
 .secondPage>h1{
 color: #DA9F5B;
 font-size:30px ;
 letter-spacing: 3px;
-margin: 10px;
+/* margin: 10px; */
 }
 .secondPage>h2{
     font-size: 50px;
@@ -184,7 +159,7 @@ margin-right: 10px!important;
     color: #DA9F5B;
     font-size:30px ;
     letter-spacing: 3px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .third_page>h2{
     font-size: 50px;
@@ -228,19 +203,22 @@ margin-bottom: 30px;
     /* background-repeat: no-repeat; */
 background-color: #2a1916e4;
 width: 100%;
-height: 70vh;
+/* height: 70vh; */
 text-align: center;
+margin: auto!important;
 
 }
 .fourth{
     background-color: #2a1916e4;
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
+    margin: auto!important;
+    padding: 45px;
 }
 .fourth_page h1{
     font-size: 90px;
     color: #DA9F5B;
- padding-top: 10%;
+ /* padding-top: 10%; */
 }
 .fourth_page h2,h3{
     font-size: 30px;
@@ -248,20 +226,24 @@ text-align: center;
   font-weight: bolder;
     color: white!important;
 }
-.fourth_page input{
-padding: 14px 20px;
-margin-right: 0;
-border: 0;
+.input{
+margin: auto;
+    width: 30%!important;
+    margin-top: 20px;
 }
-.fourth_page input:focus{
+.fourth_page  input{
+    padding: 8px!important;
+}
+.fourth_page  button{
+    padding: 8px 10px!important;
+    background-color: #DA9F5B;
+    border: 0;
+    color: white!important;
+}
+/* .fourth_page input:focus{
     border: 4px solid #4c3214;
-}
-.fourth_page button{
-    padding: 14px 22px;
- background-color: #DA9F5B;
- border: 0;
- margin-left: 0!important;
-}
+} */
+
 
 /* ...........................fifth page................................ */
 
@@ -323,7 +305,7 @@ width: 90%;
 
 .sixth_page{
 width: 80%!important;
-height: 90%!important;
+/* height: 90%!important; */
 margin: auto;
 /* margin-left: 20%!important; */
 background-image: url("./img/bg2.jpg");
@@ -333,14 +315,13 @@ margin: auto!important;
 
 .column_3{
 background-color: #2a1916a9;
-height: 90vh;
+/* height: 90vh; */
 width: 50%;
 
 
 }
 .column_4{
     background-color: #2a1916ee;
-    height: 90vh;
     width: 50%;
 }
 .column_3 h1{
@@ -389,6 +370,9 @@ border: 3px solid #DA9F5B!important;
     padding: 3% 30%!important;
    margin-left: 15%;
     background-color: #DA9F5B;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #DA9F5B!important ;
 }
 
 /* ........................sixth page................................ */
@@ -405,17 +389,36 @@ border: 3px solid #DA9F5B!important;
     margin-bottom: 50px;
 }
 
+
+/* ..................................TEstimonial.................... */
+.about-serving>h1{
+    color: #DA9F5B!important;
+    font-size:30px ;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.about-serving>h2{
+    font-size: 50px;
+    color: #33211D;
+    margin-bottom: 50px;
+}
+
+.about-servingDiv{
+    width: 85%!important;
+    margin: auto!important;
+}
+
 /* ..............................footer........................... */
 
 .footer{
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%; 
    margin-top: 30px;
     background-image: url("./img/bg2.jpg");
     color: white;
 }
 .footer_section{
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%; background-color: #3b2522c2;
 }
 .footer .row{
@@ -464,12 +467,43 @@ margin: auto;
     font-size: 15px;
 }
 
+
+.jump-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 25px;
+    border: 0;
+    padding: 5px 15px;
+    background-color: #cd6f03;
+    animation-name: btn-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+@keyframes btn-animation{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+
+.location iframe{
+
+}
+
 @media screen and (max-width:992px)  {
+    .fifth_page{
+        width: 50%;
+          }
     .navbar{
         background-color:#33211D;
     }  
-    .koppee{
-        color: white!important;
+    .koppee{ 
         font-size: 40px!important;
     }
     .navbar-nav a{
@@ -572,13 +606,7 @@ padding: 12px 20px;
 
 
         /* ...................................footer........................................ */
-        .footer{
-            height: 140vh;
-        }
-        .footer_section{
-            height: 140vh;
-          
-        }
+       
         .footer .footer_section .row{
             flex-direction: column;
         }
@@ -591,16 +619,46 @@ padding: 12px 20px;
         }
 }
 @media screen and (max-width:576px){
-
-
-
+    .about{
+        width: 100%!important;
+     
+    }
+    .carousel-item img{
+        height: 60vh!important;
+    }
+    .image img{
+        width: 350px!important;
+        height:65vh!important;
+        text-align: center;
+        }
+  .about-div{
+    width: 95%!important;
+    margin-left: 10px;
+  }
+    .header_2>h1{
+        color:white ;
+        position: absolute;
+        font-size: 45px;
+        font-weight: bolder;
+        top: 45%;
+        left: 20%;
+        }
+        .header_2 h2{
+            color:white ;
+        position: absolute;
+        font-size: 20px;
+        top: 65%;
+        /* display: flex; */
+        
+        left: 35%;
+        }
     /* ............................third page............................ */
   
     .third_page>h2{
         font-size: 35px;
            }
 .col img{
-width: 420px!important;
+width:300px!important;
 margin-bottom: 10px;
 }
 .heading{
@@ -608,26 +666,12 @@ margin-bottom: 10px;
 }
 
 
-/* ............................fourth page.................... */
-/* .fourth_page h1{
-    font-size: 60px;
-     padding-top: 15%;
-}
-.fourth_page h2,h3{
-    font-size: 28px;
- 
-}
-.fourth_page input{
-padding: 12px 20px;
-
-}
-
-.fourth_page button{
-    padding: 12px 22px;
-
-} */
-
-
+.input{
+    margin: auto;
+        width: 80%!important;
+        margin-top: 20px;
+    }
+  
 /* ...................fifth page */
 .fifth_page{
     width: 90%;
@@ -660,18 +704,18 @@ padding: 12px 20px;
         .sixth_page{
      margin: 0!important;
         width: 100%!important; 
-        height: 200vh;   
+        /* height: 120vh!important;    */
             }
-
-
+            .column_3{
+                           width: 50%;
+                
+                
+                }
+                .column_4 h1{
+                    padding-top: 40%;
+                }
 /* ..........................................footer......................... */
-.footer{
-    height: 140vh;
-}
-.footer_section{
-    height: 140vh;
-  
-}
+
 .footer .footer_section .row{
     flex-direction: column;
 }
@@ -683,8 +727,28 @@ padding: 12px 20px;
     padding-top: 10%;
 }
  
+.location{
+    text-align: center;
+}
+.location iframe{
+width: 90%;
 
+}
+.messege{
+    width: 90%!important;
+}
+.Contact_locationd{
+    grid-template-columns: repeat(1,1fr)!important;
+}
+}
 
-
-
+@media screen and (max-width:476px){
+    .carousel-item img{
+        height: 40vh!important;
+    }
+}
+@media screen and (max-width:400px){
+    .carousel-item img{
+        height: 60vh!important;
+    }
 }

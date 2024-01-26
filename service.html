@@ -34,16 +34,12 @@
              <li class="nav-item"><a href="./about.html"class="nav-link nav-li About">About</a></li>
              <li class="nav-item"><a href="./service.html"class="nav-link nav-li Service ">Service</a></li>
              <li class="nav-item"><a href="./menu.html"class="nav-link nav-li Menu">Menu</a></li>
-             <li class="nav-item"><a href=""class="nav-link nav-li  dropdown-toggle dropdown Page"data-bs-toggle="dropdown">Page</a>
-             <ul class="dropdown-menu">
-             
-             
-                 <li><a href="./reservartion.html"class="Reservation dropdown-item">Reservation</a></li>
-                 <li><a href="./testimonial.html" class="Testimonial dropdown-item">Testimonial</a></li>
-             </ul>
-             
-             
-             </li>
+             <li class="nav-item  dropdown"><a href="" class="nav-link nav-li dropdown-toggle "
+                data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+                <li ><a href="./reservartion.html" class="dropdown-item"onclick="liClick1()"id="li1">Reservation</a></li>
+                <li ><a href="./testimonial.html" class="dropdown-item"onclick="liClick2()"id="li2">Testimonial</a></li>
+        </ul>  </li>
              <li class="nav-item"><a href="./contact.html"class="nav-link nav-li Contact">Contact</a></li>
              
              </ul>    
@@ -157,8 +153,10 @@
             <div class="col">
             <h1>NEWSLETTER</h1>
             <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-            <input type="email"placeholder="Your Email">
-            <button>Sign Up</button>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                <button class="btn " type="button" id="button-addon2">Sign Up</button>
+              </div>
             </div>
             
             
@@ -171,6 +169,13 @@
             </footer>
     </section>
 
+    <h6>
+        <button class="jump-btn">
+            <a href="" class="text-dark">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </button>
+    </h6>
    <script src="./JS/bootstrap.bundle.min.js"></script>
 
 </body>
